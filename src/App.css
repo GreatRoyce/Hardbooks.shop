@@ -1,0 +1,36 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* border: 1px solid gray; */
+}
+
+body {
+  background-color: #f0eded;
+  font-family: "Poppins", sans-serif;
+}
+.shade {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  border-top: 0;
+}
+
+.textshade {
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.rotater:hover {
+  transform: rotate(0deg);
+  animation: bounce 1s ease-in forwards;
+}
+@keyframes bounce {
+  0% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
