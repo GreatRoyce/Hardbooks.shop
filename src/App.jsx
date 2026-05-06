@@ -9,7 +9,7 @@ import CheckOut from "./modules/user/cart/pages/CheckOut";
 import AboutPage from "./modules/public/pages/AboutPage";
 import ReturnsPage from "./modules/public/pages/ReturnsPage";
 import ShippingPage from "./modules/public/pages/ShippingPage";
-import TermsOfServicePage from "./modules/public/pages/TermsOfServicePag";
+import TermsOfServicePage from "./modules/public/pages/TermsOfServicePage";
 import PrivacyPolicyPage from "./modules/public/pages/PrivacyPolicyPage";
 
 function App() {

@@ -1,5 +1,5 @@
 import React from "react";
-import carddesign from "../../../assets/cardDesign.png";
+import cardDesign from "../../../assets/cardDesign.png";
 import CompBtn from "../../../components/ui/primitives/CompBtn";
 import { FaBookReader } from "react-icons/fa";
 
@@ -11,14 +11,14 @@ const MembershipCard = () => {
           <div className="bg-inverted rounded-2xl relative overflow-hidden min-h-[260px]">
             <div
               className="absolute inset-0 bg-left bg-no-repeat"
-              style={{ backgroundImage: `url(${carddesign})`, opacity: 0.5 }}
+              style={{ backgroundImage: `url(${cardDesign})`, opacity: 0.5 }}
             ></div>
             <div className="relative z-10 p-6 sm:p-8 w-full sm:w-2/3 lg:w-1/2 space-y-4">
               <h1 className="text-2xl font-semibold text-white">
                 Become a Patron
               </h1>
               <p className="text-xs text-white">
-                Recieve early access to limited edition drops and curator-led
+                Receive early access to limited edition drops and curator-led
                 virtual salons.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 relative">

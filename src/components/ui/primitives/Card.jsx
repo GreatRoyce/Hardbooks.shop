@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import CartButton from "../composities/CartButton";
-import Reveal from "../composities/Reveal";
+import CartButton from "../composites/CartButton";
+import Reveal from "../composites/Reveal";
 import { useCart } from "../../../modules/shared/context/CartContext";
 
 const Card = ({ book }) => {

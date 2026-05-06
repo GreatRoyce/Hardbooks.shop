@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+=======
+  "installCommand": "cd frontend && npm ci",
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/dist",
+>>>>>>> 0c12131 (Clean project structure, unify Vercel config, and refresh docs)
   "rewrites": [
     {
       "source": "/(.*)",

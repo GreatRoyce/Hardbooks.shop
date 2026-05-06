@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import hero from "../../../../assets/heroimage.jpg";
 import Login from "./Login";
-import Reveal from "../../../../../src/components/ui/composities/Reveal";
+import Reveal from "../../../../components/ui/composites/Reveal";
 import Register from "./Register";
 
 const navbarstyles = {

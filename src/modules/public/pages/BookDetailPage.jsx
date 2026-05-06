@@ -4,7 +4,7 @@ import recentAdded from "../data/recentAdded";
 import CompBtn from "../../../components/ui/primitives/CompBtn";
 import NavBar from "../components/NavBar";
 import { FaArrowRight, FaHeartbeat } from "react-icons/fa";
-import CartButton from "../../../components/ui/composities/CartButton";
+import CartButton from "../../../components/ui/composites/CartButton";
 import { useCart } from "../../shared/context/CartContext";
 
 const allBooks = [...libraryData, ...recentAdded];
