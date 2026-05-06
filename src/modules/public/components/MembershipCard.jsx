@@ -1,5 +1,5 @@
 import React from "react";
-import carddesign from "../../../assets/carddesign.png";
+import carddesign from "../../../assets/cardDesign.png";
 import CompBtn from "../../../components/ui/primitives/CompBtn";
 import { FaBookReader } from "react-icons/fa";
 
